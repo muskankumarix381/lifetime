@@ -1,0 +1,42 @@
+
+body{
+    
+    text-align: center;
+   font-family:'Dokdo',cursive;
+   background-color:rgba(233, 239, 238, 0.901);
+}
+
+
+
+h1{
+   text-align:center;
+    color: rgb(82, 56, 3);
+    margin: 30px 0 50px;
+}
+.gallery{
+    display: block;
+    float: left;
+    width: 50%;
+    margin: 10px 20px;
+
+}
+main{
+    margin-left: 400px;
+}
+.gallery img{
+    width: 110%;
+    padding: 10px;
+    filter: grayscale(100%);
+    transform:1s; 
+}
+.gallery img:hover{
+    filter:grayscale(0) ;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
